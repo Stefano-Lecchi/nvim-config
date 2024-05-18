@@ -13,7 +13,11 @@ return require('packer').startup(function(use)
 	  requires = { {'nvim-lua/plenary.nvim'} }
   }
 
-  use { "catppuccin/nvim", as = "catppuccin" }
+  -- use { "catppuccin/nvim", as = "catppuccin" }
+  -- use { "pauchiner/pastelnight.nvim" }
+  -- use { "rose-pine/neovim", as = "rose-pine" }
+  -- use { "rebelot/kanagawa.nvim" }
+  use { "comfysage/evergarden" }
 
   use('nvim-treesitter/nvim-treesitter', { run = ':TSUpdate' })
 
